@@ -1,0 +1,125 @@
+@import url('https://mmwebfonts.comquas.com/fonts/?font=GHKKengtung');
+.unicode {
+	font-family: 'GHK KengTung' !important;
+	letter-spacing: 1px;
+	color: #000 !important;
+	font-weight: bold;
+}
+
+body,
+html {
+	width: 100vw;
+	height: 100%;
+	background: rgb(70, 54, 61);
+	background: -moz-radial-gradient(
+		circle,
+		rgba(70, 54, 61, 1) 0%,
+		rgba(248, 236, 194, 1) 71%,
+		rgba(217, 201, 202, 1) 100%
+	);
+	background: -webkit-radial-gradient(
+		circle,
+		rgba(70, 54, 61, 1) 0%,
+		rgba(248, 236, 194, 1) 71%,
+		rgba(217, 201, 202, 1) 100%
+	);
+	background: radial-gradient(
+		circle,
+		rgba(70, 54, 61, 1) 0%,
+		rgba(248, 236, 194, 1) 71%,
+		rgba(217, 201, 202, 1) 100%
+	);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#46363d",endColorstr="#d9c9ca",GradientType=1);
+	/* background-image: url('https://cdn.pixabay.com/photo/2016/11/14/22/01/background-1824828_960_720.jpg'); */
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow-x: hidden;
+}
+
+#progressbar {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.d2-card-wide.mdl-card {
+	width: 95%;
+	background-color: #f8ecc271 !important;
+	display: inline-block;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+.d2-card-wide > .mdl-card__title {
+	color: rgba(29, 27, 27, 0.363);
+	height: 176px;
+}
+
+.d2-card-wide > .mdl-card__menu {
+	color: #000;
+}
+
+.material-icons {
+	color: rgb(15, 12, 6);
+}
+
+.d2 {
+	font-family: 'Kanit', sans-serif;
+	color: #333 !important;
+}
+
+.clock b,
+.d2tick {
+	font-family: 'Poppins', sans-serif;
+	color: #000;
+}
+
+.d2status,
+.clock,
+.clock b {
+	color: #000;
+}
+
+#d2set,
+#d2val {
+	color: #000;
+}
+
+#d2Table {
+	background-color: #f8ecc2d0 !important;
+	width: 95% !important;
+	table-layout: fixed !important;
+}
+
+#1230,
+#430 {
+	color: #333 !important;
+}
+
+#d2Table td {
+	word-wrap: break-word !important;
+	width: 25%;
+	display: inline-block;
+}
+
+.d2text {
+	color: #fff;
+}
+
+.d2status .material-icons {
+	color: white;
+}
+
+.mdl-card__supporting-text {
+	color: #fff;
+}
+
+.kochan {
+	background-color: #f8ecc2c4 !important;
+	color: #fff !important;
+}
+
+.text-dark {
+	color: #444 !important;
+}
