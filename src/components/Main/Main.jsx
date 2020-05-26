@@ -10,7 +10,7 @@ const Main = () => {
 				className="unicode mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect"
 				to="/3d"
 			>
-				သုံးလုံးဂဏန်းကြည့်မယ်
+				သုံးလုံးကြည့်မယ်
 			</Link>
 
 			<a
