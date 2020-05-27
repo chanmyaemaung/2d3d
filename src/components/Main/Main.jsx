@@ -15,7 +15,7 @@ const Main = () => {
 
 			<a
 				className="unicode mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect"
-				href="https://scratch.chanmyaemaung.net/"
+				href="https://lucky.myanmarnews.best/"
 			>
 				ထိုင်းခဲခြစ်ဂဏန်းကြည့်မယ်
 			</a>
