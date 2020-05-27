@@ -15,7 +15,7 @@ const App = () => {
 					<Route exact path="/" component={Home} />
 					<Route path="/3d" component={ThreeD} />
 					{/* <Route exact path="*" component={Home} /> */}
-					<Redirect from="*" to="/3d" />
+					<Redirect from="*" to="/" />
 				</Switch>
 			</Router>
 		</Fragment>
