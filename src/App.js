@@ -9,7 +9,7 @@ const App = () => {
 				<Switch>
 					<Route exact path={'/'} component={Home} />
 					<Route path={'/3d'} component={ThreeD} />
-					<Route path={'*'} component={Home} />
+					<Route component={Home} />
 				</Switch>
 			</Router>
 		</Fragment>
