@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { Home, Main, ThreeD } from './components';
+import { Home, ThreeD } from './components';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 const App = () => {
@@ -7,17 +7,9 @@ const App = () => {
 		<Fragment>
 			<Router>
 				<Switch>
-					<Route
-						exact
-						path="/"
-						render={(props) => (
-							<Fragment>
-								<Home />
-							</Fragment>
-						)}
-					/>
-					<Route path="/2d" component={Main} />
-					<Route path="/3d" component={ThreeD} />
+					<Route exact path={'/'} component={Home} />
+					<Route path={'/3d'} component={ThreeD} />
+					<Route path={'*'} component={Home} />
 				</Switch>
 			</Router>
 		</Fragment>

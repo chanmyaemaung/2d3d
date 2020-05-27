@@ -8,7 +8,7 @@ const ThreeD = () => {
 		<Fragment>
 			<Link
 				className="unicode mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect"
-				to="/2d"
+				to="/"
 			>
 				ပြန်သွားမယ်
 			</Link>

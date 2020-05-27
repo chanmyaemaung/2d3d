@@ -89,5 +89,23 @@
 		<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
 		<script src="%PUBLIC_URL%/assets/js/app.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function () {
+				setInterval(function () {
+					cache_clear();
+				}, 5000);
+			});
+
+			function cache_clear() {
+				window.location.reload(true);
+				// window.location.reload(); use this if you do not remove cache
+			}
+
+			// Or I can use this one as well.
+			// setTimeout(function () {
+			// 	window.location = window.location;
+			// }, 5000);
+		</script>
 	</body>
 </html>
