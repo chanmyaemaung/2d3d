@@ -1,8 +1,9 @@
 @import url('https://mmwebfonts.comquas.com/fonts/?font=GHKKengtung');
+
 .unicode {
 	font-family: 'GHK KengTung' !important;
 	letter-spacing: 1px;
-	color: #000 !important;
+	color: #fff !important;
 	font-weight: bold;
 }
 
@@ -71,12 +72,12 @@ html {
 }
 
 .d2-card-wide > .mdl-card__title {
-	color: rgba(29, 27, 27, 0.363);
+	color: rgba(255, 255, 255, 0.363);
 	height: 176px;
 }
 
 .d2-card-wide > .mdl-card__menu {
-	color: #000;
+	color: #fff;
 }
 
 .material-icons {

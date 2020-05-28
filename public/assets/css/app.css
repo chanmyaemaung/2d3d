@@ -1,8 +1,9 @@
 @import url('https://mmwebfonts.comquas.com/fonts/?font=GHKKengtung');
+
 .unicode {
 	font-family: 'GHK KengTung' !important;
 	letter-spacing: 1px;
-	color: #000 !important;
+	color: #ffffff !important;
 	font-weight: bold;
 }
 
@@ -78,12 +79,12 @@ html {
 .d2status,
 .clock,
 .clock b {
-	color: #000;
+	color: #fff;
 }
 
 #d2set,
 #d2val {
-	color: #000;
+	color: #fff;
 }
 
 #d2Table {

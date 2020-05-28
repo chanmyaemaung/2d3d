@@ -47,7 +47,10 @@ const Main = () => {
 						<b id="ampm" className="text-white"></b>
 					</div>
 					<div
-						style={{ float: 'right', margin: '10px' }}
+						style={{
+							float: 'right',
+							margin: '10px',
+						}}
 						className="unicode d2status text-white"
 					>
 						Market Status

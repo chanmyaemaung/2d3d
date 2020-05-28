@@ -137,20 +137,19 @@ function mksttoMM(mkst) {
 	if (mkst == 'OffHour') {
 		mkst = 'ထိပ်စည်းပိတ်';
 	} else if (mkst == 'Closed') {
-		mkst = "<sub class='material-icons text-white'> lock </sub> ဈေးကွက်ပိတ်";
+		mkst = "<sub class='material-icons'> lock </sub> ဈေးကွက်ပိတ်";
 	} else if (mkst == 'Pre-Open1') {
-		mkst = "<sub class='material-icons text-white'> schedule </sub> မနက်အကြို";
+		mkst = "<sub class='material-icons'> schedule </sub> မနက်အကြို";
 	} else if (mkst == 'Open(I)') {
-		mkst = "<sub class='material-icons text-white'> home </sub> နံနက်ဈေးကွက်";
+		mkst = "<sub class='material-icons'> home </sub> နံနက်ဈေးကွက်";
 	} else if (mkst == 'Intermission') {
-		mkst = "<sub class='material-icons text-white'> lock </sub> နံနက်ပိတ်";
+		mkst = "<sub class='material-icons'> lock </sub> နံနက်ပိတ်";
 	} else if (mkst == 'Pre-Open2') {
-		mkst = "<sub class='material-icons text-white'> schedule </sub> ညနေအကြို";
+		mkst = "<sub class='material-icons'> schedule </sub> ညနေအကြို";
 	} else if (mkst == 'Open(II)') {
-		mkst = "<sub class='material-icons text-white'> home </sub> ညနေဈေးကွက်";
+		mkst = "<sub class='material-icons'> home </sub> ညနေဈေးကွက်";
 	} else if (mkst == 'Pre-close') {
-		mkst =
-			"<sub class='material-icons text-white'> pan_tool </sub> ညနေအကြိုပိတ်";
+		mkst = "<sub class='material-icons'> pan_tool </sub> ညနေအကြိုပိတ်";
 	}
 	return mkst;
 }
@@ -432,8 +431,4 @@ function get3d() {
 			);
 		});
 	});
-}
-
-function Refresh() {
-	window.parent.location = window.parent.location.href;
 }
