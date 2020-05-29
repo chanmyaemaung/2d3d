@@ -74,6 +74,26 @@ html {
 	color: #444;
 }
 #d3Table {
+	background: rgb(248, 236, 194);
+	background: -moz-linear-gradient(
+		90deg,
+		rgba(248, 236, 194, 1) 0%,
+		rgba(97, 96, 92, 1) 50%,
+		rgba(245, 245, 245, 1) 100%
+	);
+	background: -webkit-linear-gradient(
+		90deg,
+		rgba(248, 236, 194, 1) 0%,
+		rgba(97, 96, 92, 1) 50%,
+		rgba(245, 245, 245, 1) 100%
+	);
+	background: linear-gradient(
+		90deg,
+		rgba(248, 236, 194, 1) 0%,
+		rgba(97, 96, 92, 1) 50%,
+		rgba(245, 245, 245, 1) 100%
+	);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f8ecc2",endColorstr="#f5f5f5",GradientType=1);
 	background-color: rgba(255, 255, 255, 0.3) !important;
 	width: 95%;
 }
