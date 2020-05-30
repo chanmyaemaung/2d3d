@@ -22,7 +22,7 @@ const ThreeD = () => {
 
 			<div className="d2-card-wide mdl-card mdl-shadow--2dp">
 				<div className="mdl-card__title" align="center">
-					<div align="center" style={{ width: '100%' }}>
+					<div align="center" style={{ width: '100%', marginTop: '70px' }}>
 						<b style={{ fontSize: '150px' }} className="d2" id="d3">
 							...
 						</b>
