@@ -48,6 +48,10 @@
 			rel="stylesheet"
 			href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css"
 		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css"
+		/>
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script
@@ -86,9 +90,11 @@
 			defer=""
 		></script>
 
-		<script src="%PUBLIC_URL%/assets/js/alert.js"></script>
+		<!-- <script src="%PUBLIC_URL%/assets/js/alert.js"></script> -->
 
 		<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
 
 		<script src="%PUBLIC_URL%/assets/js/app.js"></script>
 
@@ -103,6 +109,14 @@
 				// window.location.reload(true);
 				window.location.reload(); /* use this if you do not remove cache */
 			}
+
+			$.confirm({
+				title: 'အသိပေးချက်!',
+				content:
+					'2D/3D ကို အသစ်ပြုပြင်နေဆဲဖြစ်သောကြောင့် လက်ရှိတွင် ကြည့်ရှု၍ မရနိုင်သေးပါခင်ဗျာ။',
+				draggable: !0,
+				dragWindowBorder: !1,
+			});
 
 			// Or I can use this one as well.
 			// setTimeout(function () {
