@@ -7,6 +7,8 @@ import {
 	Redirect,
 } from 'react-router-dom';
 
+alert('2D/3D ကို လက်ရှိကြည့်ရှု၍ မရနိုင်သေးပါ။ ပြင်ဆင်နေသောကြောင့်ဖြစ်သည်။');
+
 const App = () => {
 	return (
 		<Fragment>
