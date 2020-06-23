@@ -102,7 +102,7 @@
 			$(document).ready(function () {
 				setInterval(function () {
 					cache_clear();
-				}, 6000);
+				}, 10000);
 			});
 
 			function cache_clear() {
@@ -110,13 +110,13 @@
 				window.location.reload(); /* use this if you do not remove cache */
 			}
 
-			$.confirm({
-				title: 'အသိပေးချက်!',
-				content:
-					'2D/3D ကို အသစ်ပြုပြင်နေဆဲဖြစ်သောကြောင့် လက်ရှိတွင် ကြည့်ရှု၍ မရနိုင်သေးပါခင်ဗျာ။',
-				draggable: !0,
-				dragWindowBorder: !1,
-			});
+			// $.confirm({
+			// 	title: 'အသိပေးချက်!',
+			// 	content:
+			// 		'2D/3D ကို အသစ်ပြုပြင်နေဆဲဖြစ်သောကြောင့် လက်ရှိတွင် ကြည့်ရှု၍ မရနိုင်သေးပါခင်ဗျာ။',
+			// 	draggable: !0,
+			// 	dragWindowBorder: !1,
+			// });
 
 			// Or I can use this one as well.
 			// setTimeout(function () {
